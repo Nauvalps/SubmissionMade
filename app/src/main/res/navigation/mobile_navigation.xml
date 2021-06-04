@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_headlines">
+
+    <fragment
+        android:id="@+id/navigation_headlines"
+        android:name="com.bangkit.submissionmade1.ui.headlines.HeadlinesFragment"
+        android:label="@string/title_headlines"
+        tools:layout="@layout/fragment_headlines" />
+
+    <fragment
+        android:id="@+id/navigation_health"
+        android:name="com.bangkit.submissionmade1.ui.health.HealthFragment"
+        android:label="@string/title_health"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/navigation_sports"
+        android:name="com.bangkit.submissionmade1.ui.sports.SportsFragment"
+        android:label="@string/title_sports"
+        tools:layout="@layout/fragment_sports" />
+</navigation>
